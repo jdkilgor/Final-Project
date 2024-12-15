@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Final Project</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <a href="#collage">Collage</a>
+      <a href="#cookies">Cookies</a>
+      <a href="#button">Button</a>
+    </nav>
+
+    <!-- Gallery -->
+    <div id="collage" class="container">
+      <h1>Here's a Collage of Pictures From the Semester!</h1>
+      <div class="gallery">
+        <img src="https://via.placeholder.com/150" alt="Image 1" />
+        <img src="https://via.placeholder.com/150" alt="Image 2" />
+        <img src="https://via.placeholder.com/150" alt="Image 3" />
+        <img src="https://via.placeholder.com/150" alt="Image 4" />
+        <img src="https://via.placeholder.com/150" alt="Image 5" />
+        <img src="https://via.placeholder.com/150" alt="Image 6" />
+        <img src="https://via.placeholder.com/150" alt="Image 7" />
+        <img src="https://via.placeholder.com/150" alt="Image 8" />
+        <img src="https://via.placeholder.com/150" alt="Image 9" />
+      </div>
+    </div>
+
+    <!-- Event Callback and User Input -->
+    <div id="cookies" class="container">
+      <h2>Cookies</h2>
+      <p>Enter your name below, and I'll remember it for your next visit!</p>
+      <input type="text" id="username" placeholder="Enter your name" />
+      <button onclick="saveName()">Save Name</button>
+      <p id="greeting"></p>
+    </div>
+
+    <!-- Contact -->
+    <div id="button" class="container">
+      <h2>Button</h2>
+      <p>Click this for a greeting!:</p>
+      <button onclick="alert('Hello!')">Contact Us</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
